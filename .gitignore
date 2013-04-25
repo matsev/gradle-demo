@@ -4,6 +4,7 @@
 *.iws
 *.ids
 .idea/
+out/
 
 # Maven
 target/
