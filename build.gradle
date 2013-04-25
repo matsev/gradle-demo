@@ -1,10 +1,12 @@
 apply plugin: 'java'
 apply plugin: 'application'
+apply plugin: 'maven'
 
 // Properties for the application plugin
 mainClassName = 'com.jayway.gradledemo.OtherDemo'
 
 sourceCompatibility = 1.7
+project.group = 'com.jayway.gradledemo'
 version = '0.1-SNAPSHOT'
 
 jar {
