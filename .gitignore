@@ -1,0 +1,16 @@
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+*.ids
+.idea/
+
+# Maven
+target/
+
+# OS X
+.DS_Store
+
+# Gradle
+.gradle/
+build/
