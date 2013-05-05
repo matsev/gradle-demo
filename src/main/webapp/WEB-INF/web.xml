@@ -5,13 +5,13 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
 
     <servlet>
-        <servlet-name>HelloWorldServlet</servlet-name>
+        <servlet-name>HelloServlet</servlet-name>
         <servlet-class>com.jayway.gradledemo.HelloServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>HelloWorldServlet</servlet-name>
-        <url-pattern>/sayhello</url-pattern>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/hello/*</url-pattern>
     </servlet-mapping>
 
 </web-app>
